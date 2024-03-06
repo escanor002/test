@@ -713,7 +713,7 @@ margin-left: 175px;
 @media (max-width: 991.98px) {
   .my-about {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 165px;
 
   }
 }
@@ -723,7 +723,7 @@ margin-left: 175px;
   .my-about {
     /* Adjust the styles for mobile devices here */
 
-    margin-left: 185px;
+    margin-left: 170px;
 
   }
 }
