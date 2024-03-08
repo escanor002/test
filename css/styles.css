@@ -53,8 +53,8 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .PERSONAL-HEADING {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
+    width: 140px;
+    font-size: 14px;
     margin-left: 18px;
     margin-top: 45px;
   }
@@ -81,7 +81,7 @@ height: 100vh;
   .dob {
     /* Adjust the styles for tablets here */
     width: 10px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin-right: 40px;
     margin-left: 20px;
@@ -93,8 +93,8 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .dob {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
+    width: 140px;
+    font-size: 14px;
     text-align: center;
     margin-right: 30px;
     margin-left: 19px;
@@ -134,7 +134,8 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .GENDER {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
+    width: 140px;
+    font-size: 14px
     margin-right: 30px;
     margin-left: 19px;
     margin-top: 130px;
@@ -207,7 +208,8 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .NAT {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
+    width: 140px;
+    font-size: 14px;
     margin-right: 30px;
     margin-left: 19px;
     margin-top: 173px;
@@ -266,8 +268,9 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .EDU-HEADING1 {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    margin-left: 180px;
+    width: 140px;
+    font-size: 14px;
+    margin-left: 190px;
     margin-top: 45px;
   }
 }
@@ -299,9 +302,9 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .U-G {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
-    margin-left: 180px;
+    width: 140px;
+    font-size: 14px;
+      margin-left: 190px;
     margin-top: 90px;
   }
 }
@@ -334,9 +337,9 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .HS-1 {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
-    margin-left: 180px;
+    width: 140px;
+    font-size: 14px;
+      margin-left: 190px;
     margin-top: 130px;
   }
 }
@@ -369,9 +372,9 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .HS-2 {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
-    margin-left: 180px;
+    width: 140px;
+    font-size: 14px;
+      margin-left: 190px;
     margin-top: 170px;
   }
 }
