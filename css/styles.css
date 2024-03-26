@@ -1,10 +1,23 @@
-#title{
-
-background: linear-gradient(#001C30,  #D2E9E9, #FFF7F1);
-height: 100vh;
-
-
+/* Default styles (no gradient) */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
+body {
+    background-color: #C9D7DD; /* Set a fallback background color */
+}
+
+/* Gradient for desktop screens */
+@media (min-width: 768px) {
+    body {
+        background: linear-gradient(#001C30, #3C6D73, #A7D7E2, #D2E9E9, #FFF7F1, #D2E9E9, #A7D7E2, #3C6D73, #001C30);
+    }
+}
+
+
+
 
 .first-id{
 
@@ -53,8 +66,8 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .PERSONAL-HEADING {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
+    width: 140px;
+    font-size: 14px;
     margin-left: 18px;
     margin-top: 45px;
   }
@@ -68,10 +81,9 @@ height: 100vh;
   margin-right: 50px;
   margin-left: 24px;
   width: 170px;
-  background-color: #FFE900;
-  color: black;
+  color: white;
   border-radius: 5px;
-  border: solid #606C5D;
+  border: solid black;
   font-size: 13px;
 
 
@@ -81,7 +93,7 @@ height: 100vh;
   .dob {
     /* Adjust the styles for tablets here */
     width: 10px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin-right: 40px;
     margin-left: 20px;
@@ -93,9 +105,8 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .dob {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
-    text-align: center;
+    width: 140px;
+    font-size: 14px;
     margin-right: 30px;
     margin-left: 19px;
     margin-top: 90px;
@@ -111,11 +122,10 @@ height: 100vh;
   margin-top: 3px;
   margin-left: 24px;
   width: 170px;
-  background-color: grey;
-  color: black;
+  color: white;
   border-radius: 5px;
   border-radius: 5px;
-  border: solid #606C5D;
+  border: solid black;
   font-size: 13px;
 
 }
@@ -123,6 +133,7 @@ height: 100vh;
 @media (max-width: 991.98px) {
   .GENDER {
     /* Adjust the styles for tablets here */
+    text-align: center;
     width: 150px;
     margin-right: 40px;
     margin-left: 20px;
@@ -134,7 +145,9 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .GENDER {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
+    text-align: center;
+    width: 140px;
+    font-size: 14px
     margin-right: 30px;
     margin-left: 19px;
     margin-top: 130px;
@@ -149,11 +162,10 @@ height: 100vh;
   margin-top: 3px;
   margin-left: 24px;
   width: 170px;
-  background-color: grey;
-  color: black;
+  color: white;
   border-radius: 5px;
   border-radius: 5px;
-  border: solid #606C5D;
+  border: solid black;
   font-size: 13px;
 }
 
@@ -185,11 +197,10 @@ height: 100vh;
   margin-top: 3px;
   margin-left: 24px;
   width: 170px;
-  background-color: grey;
-  color: black;
+  color: white;
   border-radius: 5px;
   border-radius: 5px;
-  border: solid #606C5D;
+  border: solid black;
   font-size: 13px;
 }
 
@@ -207,7 +218,8 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .NAT {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
+    width: 140px;
+    font-size: 14px;
     margin-right: 30px;
     margin-left: 19px;
     margin-top: 173px;
@@ -266,8 +278,9 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .EDU-HEADING1 {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    margin-left: 180px;
+    width: 140px;
+    font-size: 14px;
+    margin-left: 190px;
     margin-top: 45px;
   }
 }
@@ -299,9 +312,9 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .U-G {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
-    margin-left: 180px;
+    width: 140px;
+    font-size: 14px;
+      margin-left: 190px;
     margin-top: 90px;
   }
 }
@@ -334,9 +347,9 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .HS-1 {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
-    margin-left: 180px;
+    width: 140px;
+    font-size: 14px;
+      margin-left: 190px;
     margin-top: 130px;
   }
 }
@@ -369,9 +382,9 @@ height: 100vh;
 @media (max-width: 767.98px) {
   .HS-2 {
     /* Adjust the styles for mobile devices here */
-    width: 130px;
-    font-size: 12px;
-    margin-left: 180px;
+    width: 140px;
+    font-size: 14px;
+      margin-left: 190px;
     margin-top: 170px;
   }
 }
@@ -432,8 +445,8 @@ height: 100vh;
     .my {
       /* Adjust the styles for mobile devices here */
 
-      margin-left: 110px;
-      width: 110px;
+      margin-left: 115px;
+      width: 125px;
       margin-top: 40px;
     }
   }
@@ -453,7 +466,7 @@ height: 100vh;
   @media (max-width: 991.98px) {
     .COVER-LETTER {
       /* Adjust the styles for tablets here */
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 80px;
 
     }
@@ -465,8 +478,8 @@ height: 100vh;
       /* Adjust the styles for mobile devices here */
 display: flex;
 
-      margin-left: 100px;
-      margin-top: 285px;
+      margin-left: 60px;
+      margin-top: 235px;
     }
   }
 
@@ -520,7 +533,7 @@ color: white;
   .tag {
     /* Adjust the styles for mobile devices here */
 display: flex;
-    margin-left: 215px;
+    margin-left: 245px;
     font-size: 10px;
     margin-top: 45px;
   }
@@ -543,7 +556,7 @@ display: flex;
 @media (max-width: 991.98px) {
   .tag-1 {
     /* Adjust the styles for tablets here */
-    margin-left: 310px;
+    margin-left: 280px;
     margin-top: 80px;
   }
 }
@@ -553,7 +566,7 @@ display: flex;
   .tag-1 {
     /* Adjust the styles for mobile devices here */
 display: flex;
-margin-left: 225px;
+margin-left: 245px;
 font-size: 10px;
 margin-top: 65px;
   }
@@ -586,8 +599,8 @@ margin-top: 65px;
     /* Adjust the styles for mobile devices here */
 display: flex;
     margin-left: 40px;
-    font-size: 10px;
-    margin-left: 30px;
+    font-size: 11px;
+    margin-left: 20px;
     margin-top: 45px;
   }
 }
@@ -619,8 +632,8 @@ display: flex;
     /* Adjust the styles for mobile devices here */
 display: flex;
 margin-left: 40px;
-font-size: 10px;
-margin-left: 23px;
+font-size: 11px;
+margin-left: 20px;
 margin-top: 68px;
   }
 }
@@ -653,8 +666,8 @@ margin-top: 68px;
     /* Adjust the styles for mobile devices here */
 display: flex;
 margin-left: 40px;
-font-size: 10px;
-margin-left: 40px;
+font-size: 11px;
+margin-left: 20px;
 margin-top: 91px;
   }
 }
@@ -687,8 +700,8 @@ margin-top: 91px;
     /* Adjust the styles for mobile devices here */
 display: flex;
 margin-left: 40px;
-font-size: 10px;
-margin-left: 40px;
+font-size: 11px;
+margin-left: 20px;
 margin-top: 114px;
   }
 }
@@ -726,7 +739,7 @@ margin-left: 175px;
     .myname {
       /* Adjust the styles for mobile devices here */
 
-      margin-left: 110px;
+      margin-left: 125px;
 
 
     }
@@ -748,7 +761,7 @@ margin-left: 175px;
   .my-about {
     /* Adjust the styles for mobile devices here */
 
-    margin-left: 110px;
+    margin-left: 130px;
 
   }
 }
@@ -806,8 +819,8 @@ left: 320px;
 display: flex;
 width: 90px;
 font-size: 12px;
-    margin-left: 210px;
-    margin-top: 10px;
+    margin-left: 240px;
+    margin-top: 110px;
   }
 }
 
@@ -837,8 +850,9 @@ border-radius: 5px;
 @media (max-width: 767.98px) {
   .CONTACT {
     /* Adjust the styles for mobile devices here */
-width: 180px;
-    margin-left: 70px;
+width: 280px;
+
+    margin-left: 32px;
 
   }
 }
@@ -862,8 +876,8 @@ margin-left: 83px;
 @media (max-width: 767.98px) {
   .CONT-1 {
     /* Adjust the styles for mobile devices here */
-width: 180px;
-    margin-left: 90px;
+    width: 280px;
+        margin-left: 32px;
 
   }
 }
@@ -906,8 +920,8 @@ width: 180px;
 @media (max-width: 767.98px) {
   .LINKNAME {
     /* Adjust the styles for mobile devices here */
-width: 50px;
-    left: 150px;
+width: 218px;
+    left: 110px;
 
   }
 }
@@ -936,9 +950,8 @@ width: 50px;
 @media (max-width: 767.98px) {
   .TWIT-2 {
     /* Adjust the styles for mobile devices here */
-width: 180px;
-    margin-left: 90px;
-
+    width: 280px;
+        margin-left: 32px;
   }
 }
 
@@ -971,8 +984,8 @@ width: 180px;
 @media (max-width: 767.98px) {
   .TWITNAME {
     /* Adjust the styles for mobile devices here */
-width: 40px;
-    left: 150px;
+    width: 218px;
+        left: 110px;
 
   }
 }
@@ -1002,8 +1015,8 @@ width: 40px;
 @media (max-width: 767.98px) {
   .PHO-3 {
     /* Adjust the styles for mobile devices here */
-width: 40px;
-    margin-left: 90px;
+    width: 280px;
+        margin-left: 32px;
 
   }
 }
@@ -1035,9 +1048,8 @@ width: 40px;
 @media (max-width: 767.98px) {
   .GMAIL-LINK {
     /* Adjust the styles for mobile devices here */
-width: 40px;
-    left: 150px;
-
+    width: 218px;
+        left: 110px;
   }
 }
 
@@ -1068,9 +1080,9 @@ width: 40px;
 @media (max-width: 767.98px) {
   .STRENGTH {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 160px;
-    margin-left: 70px;
+    margin-left: 32px;
 
   }
 }
@@ -1098,9 +1110,9 @@ border: solid black;
 @media (max-width: 767.98px) {
   .STRENGTHEN-1 {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
 
 
   }
@@ -1127,9 +1139,9 @@ margin-top: 20px;
 @media (max-width: 767.98px) {
   .WORK {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
 
 
   }
@@ -1156,9 +1168,9 @@ margin-top: 20px;
 @media (max-width: 767.98px) {
   .SEC-WRK-1 {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
 
 
   }
@@ -1182,9 +1194,9 @@ margin-top: 20px;
 @media (max-width: 767.98px) {
   .SEC-WRK-2 {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
 
 
   }
@@ -1293,9 +1305,9 @@ background-color: orange;
 @media (max-width: 767.98px) {
   .cert1 {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
 
 
   }
@@ -1323,9 +1335,9 @@ margin-top: 20px;
 @media (max-width: 767.98px) {
   .SIXSIGMA {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
 
 
   }
@@ -1356,9 +1368,9 @@ margin-top: 20px;
 @media (max-width: 767.98px) {
   .CERT-2 {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
 
 
   }
@@ -1389,9 +1401,9 @@ margin-top: 20px;
 @media (max-width: 767.98px) {
   .CERT-3 {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
 
 
   }
@@ -1422,9 +1434,9 @@ margin-top: 20px;
 @media (max-width: 767.98px) {
   .CERT-4 {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
 
 
   }
@@ -1454,9 +1466,9 @@ margin-top: 20px;
 @media (max-width: 767.98px) {
   .SKILLSS {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 75px;
+    margin-left: 32px;
 
 
   }
@@ -1549,9 +1561,10 @@ margin-top: 20px;
 @media (max-width: 767.98px) {
   .SKILL-LEVEL {
     /* Adjust the styles for mobile devices here */
-width: 180px;
+width: 280px;
 margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 32px;
+    margin-bottom: 40px;
 
 
   }
