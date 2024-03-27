@@ -9,6 +9,12 @@ body {
     background-color: #C9D7DD; /* Set a fallback background color */
 }
 
+/* Gradient for desktop screens */
+@media (min-width: 768px) {
+    body {
+        background: linear-gradient(#001C30, #3C6D73, #A7D7E2, #D2E9E9, #FFF7F1, #D2E9E9, #A7D7E2, #3C6D73, #001C30);
+    }
+}
 
 
 
@@ -75,6 +81,7 @@ body {
   margin-right: 50px;
   margin-left: 24px;
   width: 170px;
+  background-color: grey;
   color: white;
   border-radius: 5px;
   border: solid black;
@@ -116,6 +123,7 @@ body {
   margin-top: 3px;
   margin-left: 24px;
   width: 170px;
+  background-color: grey;
   color: white;
   border-radius: 5px;
   border-radius: 5px;
@@ -457,8 +465,6 @@ body {
 
   }
 
-
-
   @media (max-width: 991.98px) {
     .COVER-LETTER {
       /* Adjust the styles for tablets here */
@@ -764,72 +770,6 @@ margin-left: 175px;
   .detail-box{
     margin-left: 13%;
   }
-
-
-  @media (max-width: 991.98px) {
-    .SLIDE-1 {
-      /* Adjust the styles for tablets here */
-      margin-left: 165px;
-
-    }
-  }
-
-  /* CSS for mobile devices */
-  @media (max-width: 767.98px) {
-    /* CSS for adjusting the position of Slide 1 in the carousel */
-.carousel-item.active img.SLIDE-1 {
-  /* Add your custom styles here */
-  /* For example, you can adjust the margins */
-  margin: auto; /* Center the image horizontally */
-  max-width: 400px;
-  height: 250px;/* Ensure the image doesn't overflow */
-}
-
-  }
-
-
-  @media (max-width: 991.98px) {
-    .SLIDE-2 {
-      /* Adjust the styles for tablets here */
-      margin-left: 165px;
-
-    }
-  }
-
-  /* CSS for mobile devices */
-  @media (max-width: 767.98px) {
-    /* CSS for adjusting the position of Slide 1 in the carousel */
-.carousel-item.active img.SLIDE-2 {
-  /* Add your custom styles here */
-  /* For example, you can adjust the margins */
-  margin: auto; /* Center the image horizontally */
-  max-width: 400px;
-  height: 250px;/* Ensure the image doesn't overflow */
-}
-
-  }
-
-  @media (max-width: 991.98px) {
-    .SLIDE-3 {
-      /* Adjust the styles for tablets here */
-      margin-left: 165px;
-
-    }
-  }
-
-  /* CSS for mobile devices */
-  @media (max-width: 767.98px) {
-    /* CSS for adjusting the position of Slide 1 in the carousel */
-  .carousel-item.active img.SLIDE-3 {
-  /* Add your custom styles here */
-  /* For example, you can adjust the margins */
-  margin: auto; /* Center the image horizontally */
-  max-width: 400px;
-  height: 250px;/* Ensure the image doesn't overflow */
-  }
-
-  }
-
 
 .core-exp{
 position: relative;
@@ -1275,12 +1215,12 @@ margin-top: 20px;
 }
 
 .WRK-DATA{
-  background-color: black;
+  background-color: grey;
   color: white;
 }
 
 .WRK-DATA-2{
-  background-color: black;
+  background-color: grey;
   color: white;
 }
 
@@ -1292,13 +1232,13 @@ margin-top: 20px;
   }
     .B3{margin-top: 8px;
 
-color: yellow;
+background-color: orange;
 
     }
       .B4{margin-top: 8px;}
         .B5{margin-top: 8px;}
           .B6{margin-top: 8px;
-color: yellow;
+background-color: orange;
 
           }
 
@@ -1312,13 +1252,13 @@ color: yellow;
             }
               .B3-3{margin-top: 8px;
 
-          color: yellow;
+          background-color: yellow;
 
               }
                 .B4-4{margin-top: 8px;}
                   .B5-5{margin-top: 8px;}
                     .B6-6{margin-top: 8px;
-        color: yellow;
+          background-color: yellow;
 
                     }
 
@@ -1594,15 +1534,11 @@ margin-top: 20px;
 
 .EXP-TITLE-1{
 
-  color: white;
-  margin-left: 0px;
-
-}
-
-.EXP-TITLE-2{
-
-  color: white;
-
+  background-color: white;
+  color: Black;
+  border: solid black;
+  width: 320px;
+  margin-left: 20px;
 
 }
 
