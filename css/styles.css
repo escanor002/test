@@ -463,6 +463,8 @@ body {
 
   }
 
+
+
   @media (max-width: 991.98px) {
     .COVER-LETTER {
       /* Adjust the styles for tablets here */
@@ -768,6 +770,72 @@ margin-left: 175px;
   .detail-box{
     margin-left: 13%;
   }
+
+
+  @media (max-width: 991.98px) {
+    .SLIDE-1 {
+      /* Adjust the styles for tablets here */
+      margin-left: 165px;
+
+    }
+  }
+
+  /* CSS for mobile devices */
+  @media (max-width: 767.98px) {
+    /* CSS for adjusting the position of Slide 1 in the carousel */
+.carousel-item.active img.SLIDE-1 {
+  /* Add your custom styles here */
+  /* For example, you can adjust the margins */
+  margin: auto; /* Center the image horizontally */
+  max-width: 400px;
+  height: 250px;/* Ensure the image doesn't overflow */
+}
+
+  }
+
+
+  @media (max-width: 991.98px) {
+    .SLIDE-2 {
+      /* Adjust the styles for tablets here */
+      margin-left: 165px;
+
+    }
+  }
+
+  /* CSS for mobile devices */
+  @media (max-width: 767.98px) {
+    /* CSS for adjusting the position of Slide 1 in the carousel */
+.carousel-item.active img.SLIDE-2 {
+  /* Add your custom styles here */
+  /* For example, you can adjust the margins */
+  margin: auto; /* Center the image horizontally */
+  max-width: 400px;
+  height: 250px;/* Ensure the image doesn't overflow */
+}
+
+  }
+
+  @media (max-width: 991.98px) {
+    .SLIDE-3 {
+      /* Adjust the styles for tablets here */
+      margin-left: 165px;
+
+    }
+  }
+
+  /* CSS for mobile devices */
+  @media (max-width: 767.98px) {
+    /* CSS for adjusting the position of Slide 1 in the carousel */
+  .carousel-item.active img.SLIDE-3 {
+  /* Add your custom styles here */
+  /* For example, you can adjust the margins */
+  margin: auto; /* Center the image horizontally */
+  max-width: 400px;
+  height: 250px;/* Ensure the image doesn't overflow */
+  }
+
+  }
+
 
 .core-exp{
 position: relative;
@@ -1213,12 +1281,12 @@ margin-top: 20px;
 }
 
 .WRK-DATA{
-  background-color: grey;
+  background-color: black;
   color: white;
 }
 
 .WRK-DATA-2{
-  background-color: grey;
+  background-color: black;
   color: white;
 }
 
@@ -1230,13 +1298,13 @@ margin-top: 20px;
   }
     .B3{margin-top: 8px;
 
-background-color: orange;
+color: yellow;
 
     }
       .B4{margin-top: 8px;}
         .B5{margin-top: 8px;}
           .B6{margin-top: 8px;
-background-color: orange;
+color: yellow;
 
           }
 
@@ -1250,13 +1318,13 @@ background-color: orange;
             }
               .B3-3{margin-top: 8px;
 
-          background-color: yellow;
+          color: yellow;
 
               }
                 .B4-4{margin-top: 8px;}
                   .B5-5{margin-top: 8px;}
                     .B6-6{margin-top: 8px;
-          background-color: yellow;
+        color: yellow;
 
                     }
 
@@ -1532,11 +1600,15 @@ margin-top: 20px;
 
 .EXP-TITLE-1{
 
-  background-color: white;
-  color: Black;
-  border: solid black;
-  width: 320px;
-  margin-left: 20px;
+  color: white;
+  margin-left: 0px;
+
+}
+
+.EXP-TITLE-2{
+
+  color: white;
+
 
 }
 
