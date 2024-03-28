@@ -52,13 +52,13 @@ body {
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .PERSONAL-HEADING {
     /* Adjust the styles for tablets here */
     width: 180px;
 
     margin-left: 0px;
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
 
@@ -89,15 +89,15 @@ body {
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .dob {
     /* Adjust the styles for tablets here */
-    width: 10px;
+    width: 180px;
     font-size: 14px;
     text-align: center;
     margin-right: 40px;
-    margin-left: 20px;
-    margin-top: 80px;
+    margin-left: 0px;
+    margin-top: 100px;
   }
 }
 
@@ -130,14 +130,14 @@ body {
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .GENDER {
     /* Adjust the styles for tablets here */
     text-align: center;
-    width: 150px;
+    width: 180px;
     margin-right: 40px;
-    margin-left: 20px;
-    margin-top: 80px;
+    margin-left: 0px;
+    margin-top: 145px;
   }
 }
 
@@ -204,13 +204,13 @@ body {
   font-size: 13px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .NAT {
     /* Adjust the styles for tablets here */
-    width: 150px;
+    width: 180px;
     margin-right: 40px;
-    margin-left: 20px;
-    margin-top: 80px;
+    margin-left: 0px;
+    margin-top: 190px;
   }
 }
 
@@ -264,13 +264,13 @@ body {
   border: solid #606C5D;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .EDU-HEADING1 {
     /* Adjust the styles for tablets here */
-    width: 130px;
-    font-size: 12px;
-    margin-left: 20px;
-    margin-top: 80px;
+    width: 180px;
+
+    margin-left: 210px;
+    margin-top: 50px;
   }
 }
 
@@ -299,12 +299,12 @@ body {
   font-size: 15px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .U-G {
     /* Adjust the styles for tablets here */
-    width: 130px;
-    margin-left: 20px;
-    margin-top: 70px;
+    width: 180px;
+    margin-left: 210px;
+    margin-top: 100px;
   }
 }
 
@@ -334,12 +334,12 @@ body {
   font-size: 15px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .HS-1 {
     /* Adjust the styles for tablets here */
-    width: 130px;
-    margin-left: 20px;
-    margin-top: 80px;
+    width: 180px;
+    margin-left: 210px;
+    margin-top: 145px;
   }
 }
 
@@ -369,12 +369,12 @@ body {
   font-size: 15px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .HS-2 {
     /* Adjust the styles for tablets here */
-    width: 130px;
-    margin-left: 20px;
-    margin-top: 80px;
+    width: 180px;
+    margin-left: 210px;
+    margin-top: 190px;
   }
 }
 
@@ -463,11 +463,11 @@ body {
 
   }
 
-  @media (max-width: 991.98px) {
+  @media (max-width: 1290px) {
     .COVER-LETTER {
       /* Adjust the styles for tablets here */
-      margin-left: 10px;
-      margin-top: 80px;
+      margin-left: 450px;
+      margin-top: 120px;
 
     }
   }
@@ -585,11 +585,12 @@ margin-top: 65px;
     margin-top: 95px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .SELF-TAG1 {
     /* Adjust the styles for tablets here */
-    margin-left: 310px;
-    margin-top: 80px;
+    margin-left: 60px;
+    width: 100px;
+    margin-top: 70px;
   }
 }
 
@@ -618,11 +619,12 @@ display: flex;
     margin-top: 125px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .SELF-TAG2 {
     /* Adjust the styles for tablets here */
-    margin-left: 310px;
-    margin-top: 80px;
+    margin-left: 50px;
+    width: 105px;
+    margin-top: 100px;
   }
 }
 
@@ -652,11 +654,12 @@ margin-top: 68px;
     margin-top: 155px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .SELF-TAG3 {
     /* Adjust the styles for tablets here */
-    margin-left: 310px;
-    margin-top: 80px;
+    margin-left: 60px;
+    width: 100px;
+    margin-top: 130px;
   }
 }
 
@@ -686,11 +689,12 @@ margin-top: 91px;
     margin-top: 184px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .SELF-TAG4 {
     /* Adjust the styles for tablets here */
-    margin-left: 310px;
-    margin-top: 80px;
+    margin-left: 50px;
+    width: 105px;
+    margin-top: 160px;
   }
 }
 
@@ -838,10 +842,13 @@ border-radius: 5px;
   border: solid black;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .CONTACT {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 18px;
+    margin-top: 50px;
+
+
 
   }
 }
@@ -864,10 +871,10 @@ width: 280px;
 margin-left: 83px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .CONT-1 {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 16px;
 
   }
 }
@@ -908,10 +915,10 @@ margin-left: 83px;
        transition: background-color 0.3s ease;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .LINKNAME {
     /* Adjust the styles for tablets here */
-
+left: 1020px;
 
   }
 }
@@ -938,10 +945,10 @@ width: 218px;
   margin-left: 83px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .TWIT-2 {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 16px;
 
   }
 }
@@ -972,10 +979,10 @@ width: 218px;
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .TWITNAME {
     /* Adjust the styles for tablets here */
-
+left: 1020px;
 
   }
 }
@@ -1003,10 +1010,10 @@ width: 218px;
   margin-left: 83px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .PHO-3 {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 16px;
 
   }
 }
@@ -1036,10 +1043,10 @@ width: 218px;
        transition: background-color 0.3s ease;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .GMAIL-LINK {
     /* Adjust the styles for tablets here */
-
+left: 1020px;
 
   }
 }
@@ -1068,10 +1075,10 @@ width: 218px;
   border: solid black;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .STRENGTH {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 0px;
 
   }
 }
@@ -1098,10 +1105,10 @@ border: solid black;
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .STRENGTHEN-1 {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 0px;
 
   }
 }
@@ -1127,10 +1134,10 @@ margin-top: 20px;
   margin-left: 36px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .WORK {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 5px;
 
   }
 }
@@ -1156,10 +1163,10 @@ margin-top: 20px;
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .SEC-WRK-1 {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 0px;
 
   }
 }
@@ -1293,10 +1300,10 @@ color: orange;
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .cert1 {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 5px;
 
   }
 }
@@ -1323,10 +1330,10 @@ margin-top: 20px;
   border: solid black;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .SIXSIGMA {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 5px;
 
   }
 }
@@ -1356,10 +1363,10 @@ margin-top: 20px;
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .CERT-2 {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 5px;
 
   }
 }
@@ -1389,10 +1396,10 @@ margin-top: 20px;
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .CERT-3 {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 5px;
 
   }
 }
@@ -1422,10 +1429,10 @@ margin-top: 20px;
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .CERT-4 {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 5px;
 
   }
 }
@@ -1454,10 +1461,10 @@ margin-top: 20px;
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .SKILLSS {
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 5px;
 
   }
 }
@@ -1533,7 +1540,7 @@ margin-top: 20px;
 .EXP-TITLE-1{
 
   color: White;
-  
+
 
 }
 
@@ -1546,10 +1553,10 @@ margin-top: 20px;
   border: solid black;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1290px) {
   .SKILL-LEVEL{
     /* Adjust the styles for tablets here */
-    margin-left: 195px;
+    margin-left: 5px;
 
   }
 }
