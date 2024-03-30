@@ -1569,6 +1569,77 @@ margin-top: 20px;
 
 }
 
+@media (max-width: 1290px) {
+  .SLIDE-1 {
+    /* Adjust the styles for tablets here */
+    margin-left: 5px;
+
+  }
+}
+
+/* CSS for mobile devices */
+@media (max-width: 767.98px) {
+  .SLIDE-1 {
+    /* Adjust the styles for mobile devices here */
+    display: flex;
+    width: auto;
+    margin-top: 20px;
+    margin-left: -150px; /* Adjust the margin-left to move the image left */
+  }
+}
+
+@media (max-width: 1290px) {
+  .SLIDE-2 {
+    /* Adjust the styles for tablets here */
+    margin-left: 5px;
+
+  }
+}
+
+/* CSS for mobile devices */
+@media (max-width: 767.98px) {
+  .SLIDE-2 {
+    /* Adjust the styles for mobile devices here */
+    display: flex;
+    width: auto;
+    margin-top: 20px;
+    margin-left: -150px; /* Adjust the margin-left to move the image left */
+  }
+}
+
+@media (max-width: 1290px) {
+  .SLIDE-3 {
+    /* Adjust the styles for tablets here */
+    margin-left: 5px;
+
+  }
+}
+
+/* CSS for mobile devices */
+@media (max-width: 767.98px) {
+  .SLIDE-3 {
+    /* Adjust the styles for mobile devices here */
+    display: flex;
+    width: auto;
+    margin-top: 20px;
+    margin-left: -150px; /* Adjust the margin-left to move the image left */
+  }
+}
+
+@media (max-width: 767.98px) {
+  .carousel-caption {
+    display: block !important; /* Ensure that the carousel caption is visible */
+    position: relative; /* Adjust the positioning if necessary */
+    top: auto; /* Reset any top positioning */
+    left: auto; /* Reset any left positioning */
+    width: auto; /* Allow the caption width to adjust to content */
+    margin-top: 8px; /* Adjust the margin-top value as needed */
+    margin-left: 125px; /* Reset any left margin */
+    text-align: center; /* Center the content horizontally */
+  }
+}
+
+
 .EXP-TITLE-1{
 
   color: White;
