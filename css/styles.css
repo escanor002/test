@@ -452,6 +452,10 @@ body {
     }
   }
 
+
+
+
+
   .COVER-LETTER{
     position: absolute;
     display: inline-block;
@@ -1523,6 +1527,17 @@ margin-top: 20px;
 .offcanvas.offcanvas-bottom.open {
   transform: translateY(50%);
 }
+
+.offcanvas.offcanvas-top {
+  transform: translateY(-100%); /* Initially push offcanvas off the top of the screen */
+  height: 90vh; /* Set the height of the offcanvas */
+  transition: transform 0.3s; /* Apply transition effect */
+}
+
+.offcanvas.offcanvas-top.open {
+  transform: translateY(0%); /* Slide in the offcanvas from the top when it's open */
+}
+
 
 .slide-bottom{
   background-color: black;
