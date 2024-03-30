@@ -208,6 +208,7 @@ body {
   .NAT {
     /* Adjust the styles for tablets here */
     width: 180px;
+    text-align: left;
     margin-right: 40px;
     margin-left: 0px;
     margin-top: 190px;
