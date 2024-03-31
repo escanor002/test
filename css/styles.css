@@ -85,7 +85,7 @@ body {
   color: white;
   border-radius: 5px;
   border: solid black;
-  font-size: 13px;
+  font-size: 15px;
 
 
 }
@@ -129,7 +129,7 @@ body {
   border-radius: 5px;
   border-radius: 5px;
   border: solid black;
-  font-size: 13px;
+  font-size: 15px;
 
 }
 
@@ -206,7 +206,7 @@ body {
   border-radius: 5px;
   border-radius: 5px;
   border: solid black;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 @media (max-width: 1290px) {
@@ -494,6 +494,24 @@ display: flex;
       margin-top: 235px;
     }
   }
+
+
+  .PARA-1{
+    margin-bottom: 5px;
+  }
+  .PARA-2{
+    margin-bottom: 5px;
+  }
+  .PARA-3{
+    margin-bottom: 5px;
+  }
+  .PARA-4{
+    margin-bottom: 5px;
+  }
+
+.PARA-5{
+  margin-top: 35px;
+}
 
   .tooltip{
     position: relative;
@@ -1121,6 +1139,7 @@ margin-top: 160px;
 .STRENGTHEN-1{
 
 color: black;
+width: 280px;
 text-align: left;
 margin-left: 33px;
 margin-top: 10px;
