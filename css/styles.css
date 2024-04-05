@@ -12,7 +12,7 @@ body {
 /* Gradient for desktop screens */
 @media (min-width: 768px) {
     body {
-        background: linear-gradient(#001C30, #3C6D73, #A7D7E2, #D2E9E9, #FFF7F1, #D2E9E9, #A7D7E2, #3C6D73, #001C30);
+        background: linear-gradient(#3C6D73,);
     }
 }
 
