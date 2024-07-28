@@ -1,0 +1,283 @@
+body {
+  background: linear-gradient(60deg, #FEFBF6, #B4B4B8);
+ /* Light background color for the whole page */
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    ont-weight: 400;
+  font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide anything that overflows */
+}
+
+/* Ensure the logo fits well within the navbar */
+.navbar-logo {
+    max-height: 70px; /* Adjust this height based on your logo's size */
+    width: auto; /* Maintain the aspect ratio of the logo */
+}
+
+/* Optional: Adjust the navbar-brand padding if needed */
+.navbar-brand {
+    padding: 0;
+}
+
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire header area */
+    z-index: -1; /* Ensure the video is behind the content */
+}
+
+.PHRASE{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    color: white; /* Text color */
+}
+
+.header-content {
+    z-index: 1; /* Ensure content is above the video */
+}
+
+.header-content .container {
+    padding: 2rem; /* Add padding for better visibility */
+}
+
+.header-content h1 {
+    font-size: 3.5rem; /* Adjust font size */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.header-content p {
+    font-size: 1.5rem; /* Adjust font size */
+    max-width: 600px; /* Limit max width */
+    margin: 0 auto; /* Center align */
+}
+
+.header-content .btn-primary {
+    background-color: #A0937D; /* Customize color */
+    border-color: #A0937D; /* Match border color */
+    padding: 0.75rem 1.25rem; /* Adjust padding */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 1rem; /* Add space above button */
+}
+
+.header-content .btn-primary:hover {
+    background-color: #8a7f65; /* Darker shade on hover */
+    border-color: #8a7f65; /* Match border color on hover */
+}
+
+
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+    .header-content p {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+}
+
+
+
+/* Navbar styling */
+.navbar-custom {
+    background: linear-gradient(60deg, #EADFB4, #B4B4B8); /* Solid background color */
+    min-height: 80px; /* Adjust the height as needed */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff; /* Change this to your desired text color */
+    font-size: 1.3rem; /* Increase the font size */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #dcdcdc; /* Change this to your desired hover color */
+}
+
+/* Header content styling */
+.header-content {
+    position: relative;
+    z-index: 2; /* Ensure content is above the video */
+    color: #fff;
+    padding: 2rem; /* Add some padding for better visibility */
+    text-align: center; /* Center-align the text */
+}
+
+/* Products section styling */
+.products {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.products .card {
+    border: none; /* Remove card border if needed */
+    overflow: hidden; /* Ensure content stays within bounds */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.products .card-img-top {
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.products .card:hover .card-img-top {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+/* Most Loved section styling */
+.most-loved {
+    background: linear-gradient(60deg, #FEFBF6, #B4B4B8);
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.most-loved .card {
+    border: none; /* Remove card border if needed */
+    overflow: hidden; /* Ensure content stays within bounds */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.most-loved .card-img-top {
+    height: 150px; /* Set a fixed height for images */
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.most-loved .card:hover .card-img-top {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+/* Carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust the width to move buttons closer to edges */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #A0937D; /* Change the color as needed */
+    border-radius: 50%;
+    width: 2rem; /* Adjust size as needed */
+    height: 2rem; /* Adjust size as needed */
+    margin-bottom: 2rem;
+}
+
+
+/* Increase the size of cards in the Most Loved carousel */
+#mostLovedCarousel .card {
+    width: 100%; /* Make the card occupy the full width of its column */
+    max-width: 200px; /* Set a maximum width for the card */
+}
+
+/* Adjust card body height for consistency */
+#mostLovedCarousel .card .card-body {
+    height: 200px; /* Set a fixed height for card body */
+}
+
+/* Optional: Center align the cards within the carousel */
+#mostLovedCarousel .row {
+    justify-content: center;
+}
+
+
+/* Video Background Section */
+.video-background {
+    position: relative;
+    height: 600px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.video-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background color */
+    text-align: center;
+}
+
+.video-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.video-content p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .video-content h2 {
+        font-size: 2rem;
+    }
+    .video-content p {
+        font-size: 1.2rem;
+    }
+}
+
+.dropdown-menu{
+  background-color:#EEEDEB;
+}
+
+
+/* Footer styling */
+.footer {
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    padding: 2rem; /* Padding for the footer */
+    text-align: center; /* Center-align text */
+}
+
+.footer a {
+    color: #EADFB4; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
